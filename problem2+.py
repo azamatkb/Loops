@@ -1,0 +1,6 @@
+#2 Прервать код до определенного места
+languages = ['go','java','php','python','javascript','ruby']
+for i in languages:
+    print(i)
+    if i == 'php':
+        break
